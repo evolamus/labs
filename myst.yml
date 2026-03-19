@@ -1,0 +1,23 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 615562fb-4fcd-477e-83c7-8f0accbe96fd
+  # title: Evolution of Language & Music Computer labs
+  # description:
+  # keywords: []
+  # authors: [Francijn Keur]
+  github: https://github.com/evolamus/labs
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: intro.md
+    - file: Bioacoustics_in_Praat.rst
+    - file: Evolution_&_phylogenetic_reconstruction.ipynb
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  logo: logo.png
+
+  parts:
+    footer: ""
+    primary_sidebar_footer: ""
