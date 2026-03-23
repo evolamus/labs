@@ -7,17 +7,27 @@ project:
   # keywords: []
   # authors: [Francijn Keur]
   github: https://github.com/evolamus/labs
+
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: intro.md
-    - file: Bioacoustics_in_Praat.rst
+    - file: Bioacoustics_in_Praat.ipynb
     - file: Evolution_&_phylogenetic_reconstruction.ipynb
+    - file: Agent_based_model_sign_language.ipynb
 site:
+  title: "Computerlabs Evolution of Language and Music"
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  logo: logo.png
+  options:
+    favicon: favicon.ico
 
+  #options:
+    # this is not yet working in Jupyter Book 2; but maybe this will work later?
+    # launch_buttons: 
+      # colab_url: https://colab.research.google.com
+    logo: oldlogo.png
+
+  
   parts:
     footer: ""
     primary_sidebar_footer: ""
+
