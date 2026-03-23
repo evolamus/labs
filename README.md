@@ -1,7 +1,7 @@
 # EvoLaMus labs
 Lab assignments for the Evolution of Language & Music course.
 
-Website: [evolamus.github.io/labs](https://evolamus.github.io/labs/intro.html)
+Website: [evolamus.github.io/labs](https://evolamus.github.io/labs/)
 
 ## Making edits
 To make edits in the lab assignments and publish them to the website, you need to:
@@ -10,10 +10,10 @@ To make edits in the lab assignments and publish them to the website, you need t
    git clone git@github.com:evolamus/labs.git
    cd labs
    ```
-2. Install [jupyter-book](https://jupyterbook.org/en/stable/intro.html) and [ghp-import](https://github.com/c-w/ghp-import)
+2. Install [jupyter-book](https://jupyterbook.org/)
    ```
    pip install -U jupyter-book
-   pip install ghp-import
+
    ```
 3. Make sure your local files are up-to-date with the ones in this repository:
    ```
@@ -30,10 +30,6 @@ To make edits in the lab assignments and publish them to the website, you need t
    git commit -m 'some edits'
    git push
    ```
-7. Send the updated html to the [gh-pages](https://github.com/clclab/elm-labs/tree/gh-pages) branch (this is what gets published to the website):
-   ```
-   ghp-import -n -p -f book/_build/html
-   ```
-8. Typically the changes should be live after a few minutes. If you don't see the changes, try opening the website in an incognito window; if the changes do show up there, it should be fine. If not, check the [Actions tab](https://github.com/evolamus/labs/actions) of this repository for build fails.
+7. Typically the changes should be live after a few minutes. If you don't see the changes, try opening the website in an incognito window; if the changes do show up there, it should be fine. If not, check the [Actions tab](https://github.com/evolamus/labs/actions) of this repository for build fails.
 
 Steps 1 and 2 only need to be done once; then repeat steps 3 through 7 anytime you want to make new edits.
